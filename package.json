@@ -1,0 +1,54 @@
+{
+    "name": "eslint-config-colourbox",
+    "version": "1.0.0",
+    "description": "This package provides Colourbox's .eslintrc as an extensible shared config.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ColourboxDevelopment/eslint-config-colourbox.git"
+    },
+    "engines": {
+        "node": ">= 4"
+    },
+    "keywords": [
+        "Colourbox",
+        "eslintrc",
+        "Airbnb",
+        "react",
+        "extensible",
+        "config"
+    ],
+    "peerDependencies": {
+        "eslint": "^5.3.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-jsx-a11y": "^6.1.1",
+        "eslint-plugin-react": "^7.11.0",
+        "babel-eslint": "^10.0.1",
+        "webpack": "^4.20.2"
+    },
+    "dependencies": {
+        "eslint": "^5.3.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-jsx-a11y": "^6.1.1",
+        "eslint-plugin-react": "^7.11.0",
+        "babel-eslint": "^10.0.1",
+        "webpack": "^4.20.2"
+    },
+    "author": "Colourbox",
+    "contributors": [
+        {
+            "name": "Zoltan Fischer",
+            "url": "https://github.com/zoli-fischer"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ColourboxDevelopment/eslint-config-colourbox/issues"
+    },
+    "homepage": "https://github.com/ColourboxDevelopment/eslint-config-colourbox#readme"
+}

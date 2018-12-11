@@ -1,0 +1,19 @@
+{
+    "name": "eslint-config-colourbox-example",
+    "version": "1.0.0",
+    "description": "Playground for eslint-config-colourbox dev",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Colourbox",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^5.10.0",
+        "eslint-config-colourbox": "../"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ColourboxDevelopment/eslint-config-colourbox.git"
+    }
+}
