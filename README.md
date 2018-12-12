@@ -68,3 +68,14 @@ Disallow Script URLs. Using javascript: URLs is considered by some as a form of 
 
 Disabled, I like to use ```javascript:{}```.
 
+### ```'jsx-a11y/click-events-have-key-events": 0,```
+
+Disallows using onClick without onKey event.
+
+Disabled. We want to be able add onClick attributes without additional events.
+
+### ```'react/no-danger": 0,'```
+
+Prevent usage of dangerous JSX properties.
+
+Disabled. In some cases, we want to use it for editable content.
