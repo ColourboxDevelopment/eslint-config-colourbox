@@ -22,7 +22,9 @@ module.exports = {
         'class-methods-use-this': 0,
         'max-len': 0,
         'jsx-a11y/anchor-is-valid': 0,
+        "jsx-a11y/click-events-have-key-events": 0,
         'no-script-url': 0,
+        "react/no-danger": 0,
     },
     plugins: [
         'react',
