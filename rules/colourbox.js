@@ -19,6 +19,7 @@ module.exports = {
         indent: ['error', 4],
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 'first'],
+        'react/jsx-boolean-value': 0,
         'import/no-unresolved': 0,
         'class-methods-use-this': 0,
         'max-len': [
@@ -34,9 +35,7 @@ module.exports = {
                 ignoreRegExpLiterals: true,
             },
         ],
-        'jsx-a11y/anchor-is-valid': 0,
         'jsx-a11y/click-events-have-key-events': 0,
-        'no-script-url': 0,
         'react/no-danger': 0,
         'no-restricted-syntax': [
             'error',
