@@ -40,6 +40,12 @@ This rule enforces a consistent indentation style. 4 spaces.
 ### ```'react/jsx-indent-props': [2, 'first'],```
 This option validates a specific indentation style for props.
 
+### ```'react/jsx-boolean-value': 0,```
+
+This rule enforces style for boolean attributes.
+
+Disabled, because we want to allow a more explicit syntax like `<MyComponent bool={true} />` instead of having to write `<MyComponent bool />` for the same.
+
 ### ```'react/jsx-indent': [2, 4],```
 This rule enforces a consistent indentation style in JSX. 4 spaces.
 
@@ -54,22 +60,25 @@ If a class method does not use this, it can sometimes be made into a static func
 
 Disabled, makes difficult to use ```this``` in all methods of a class.
 
-### ```'max-len': 0,```
-Enforce a maximum line length
+### ```'max-len'```
 
-Disabled, sometimes we have long texts.
+```
+'max-len': [
+    'error',
+    {
+        code: 120,
+        tabWidth: 4,
+        ignoreComments: true,
+        ignoreTrailingComments: true,
+        ignoreUrls: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreRegExpLiterals: true,
+    },
+],
+```
 
-### ```'jsx-a11y/anchor-is-valid': 0,```
-
-Enforce that ```a``` tags are used for open link and not ```onClick```, ```button``` should be used instead.
-
-Disabled, some cases easyer to work with ```a```.
-
-### ```'no-script-url': 0,```
-
-Disallow Script URLs. Using javascript: URLs is considered by some as a form of eval.
-
-Disabled, I like to use ```javascript:{}```.
+Sets the max line length to 120. Read more about the options at [https://eslint.org/docs/rules/max-len](https://eslint.org/docs/rules/max-len).
 
 ### ```'jsx-a11y/click-events-have-key-events': 0,```
 
@@ -82,3 +91,18 @@ Disabled. We want to be able add onClick attributes without additional events.
 Prevent usage of dangerous JSX properties.
 
 Disabled. In some cases, we want to use it for editable content.
+
+### ```'no-restricted-syntax': [ 'ForStatement' ]```
+
+Disallows for loops. Full rule:
+
+```
+'no-restricted-syntax': [
+    'error',
+    'ForStatement',
+    'ForInStatement',
+    'ForOfStatement',
+    'LabeledStatement',
+    'WithStatement',
+],
+```
