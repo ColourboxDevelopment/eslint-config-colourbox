@@ -33,6 +33,7 @@ module.exports = {
                 ignoreStrings: true,
                 ignoreTemplateLiterals: true,
                 ignoreRegExpLiterals: true,
+                ignorePattern: '\\{\\/\\*.*\\*\\/\\}',
             },
         ],
         'jsx-a11y/click-events-have-key-events': 0,
