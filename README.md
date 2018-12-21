@@ -74,6 +74,7 @@ Disabled, makes difficult to use ```this``` in all methods of a class.
         ignoreStrings: true,
         ignoreTemplateLiterals: true,
         ignoreRegExpLiterals: true,
+        ignorePattern: '\\{\\/\\*.*\\*\\/\\}',
     },
 ],
 ```
