@@ -22,20 +22,7 @@ module.exports = {
         'react/jsx-boolean-value': 0,
         'import/no-unresolved': 0,
         'class-methods-use-this': 0,
-        'max-len': [
-            'error',
-            {
-                code: 120,
-                tabWidth: 4,
-                ignoreComments: true,
-                ignoreTrailingComments: true,
-                ignoreUrls: true,
-                ignoreStrings: true,
-                ignoreTemplateLiterals: true,
-                ignoreRegExpLiterals: true,
-                ignorePattern: '\\{\\/\\*.*\\*\\/\\}',
-            },
-        ],
+        'max-len': 0,
         'jsx-a11y/click-events-have-key-events': 0,
         'react/no-danger': 0,
         'no-restricted-syntax': [
@@ -51,6 +38,8 @@ module.exports = {
         'react',
     ],
     settings: {
-        'import/resolver': 'webpack',
+        'import/resolver': {
+            webpack: 'webpack.config.js',
+        },
     },
 };

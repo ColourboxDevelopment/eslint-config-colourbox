@@ -63,23 +63,10 @@ Disabled, makes difficult to use ```this``` in all methods of a class.
 ### ```'max-len'```
 
 ```
-'max-len': [
-    'error',
-    {
-        code: 120,
-        tabWidth: 4,
-        ignoreComments: true,
-        ignoreTrailingComments: true,
-        ignoreUrls: true,
-        ignoreStrings: true,
-        ignoreTemplateLiterals: true,
-        ignoreRegExpLiterals: true,
-        ignorePattern: '\\{\\/\\*.*\\*\\/\\}',
-    },
-],
+'max-len': 0,
 ```
 
-Sets the max line length to 120. Read more about the options at [https://eslint.org/docs/rules/max-len](https://eslint.org/docs/rules/max-len).
+Disables line length linting. Read more about the options at [https://eslint.org/docs/rules/max-len](https://eslint.org/docs/rules/max-len).
 
 ### ```'jsx-a11y/click-events-have-key-events': 0,```
 
