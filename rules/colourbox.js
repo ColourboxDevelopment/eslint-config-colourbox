@@ -16,7 +16,7 @@ module.exports = {
         },
     },
     rules: {
-        indent: ['error', 4],
+        indent: [2, 4, {'SwitchCase': 1}],
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 'first'],
         'react/jsx-boolean-value': 0,
@@ -24,6 +24,8 @@ module.exports = {
         'class-methods-use-this': 0,
         'max-len': 0,
         'jsx-a11y/click-events-have-key-events': 0,
+        'jsx-a11y/no-static-element-interactions': 0,
+        'jsx-a11y/no-noninteractive-element-interactions': 0,
         'react/no-danger': 0,
         'no-restricted-syntax': [
             'error',
