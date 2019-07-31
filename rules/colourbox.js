@@ -20,6 +20,7 @@ module.exports = {
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 'first'],
         'react/jsx-boolean-value': 0,
+        'react/jsx-one-expression-per-line': 0,
         'import/no-unresolved': 0,
         'class-methods-use-this': 0,
         'max-len': 0,

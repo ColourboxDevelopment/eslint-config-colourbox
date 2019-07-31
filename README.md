@@ -46,6 +46,10 @@ This rule enforces style for boolean attributes.
 
 Disabled, because we want to allow a more explicit syntax like `<MyComponent bool={true} />` instead of having to write `<MyComponent bool />` for the same.
 
+### ```'react/jsx-one-expression-per-line': 0```
+
+Disabled, allowing you to have multiple expressions, including plain text and whitespace, in 1 line.
+
 ### ```'react/jsx-indent': [2, 4]```
 
 This rule enforces a consistent indentation style in JSX. 4 spaces.
