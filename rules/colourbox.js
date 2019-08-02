@@ -17,6 +17,7 @@ module.exports = {
     },
     rules: {
         indent: [2, 4, { SwitchCase: 1 }],
+        'react/forbid-prop-types': [1, { forbid: ['any'] }],
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 'first'],
         'react/jsx-boolean-value': 0,

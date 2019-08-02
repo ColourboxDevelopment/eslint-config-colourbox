@@ -36,6 +36,10 @@ Create a ```.eslintrc``` in your project's root directory and add this:
 
 This rule enforces a consistent indentation style. 4 spaces.
 
+### ```'react/forbid-prop-types': [1, { forbid: ['any'] }]```
+
+This rule forbids the use of 'vague prop types'; ```any```, ```array```, ```object```. We encourage using ```arrayOf``` and ```shape``` instead of ```array``` and ```object```, but in some cases we want to just use ```object``` and ```array```, so we reduced the rule to only forbid the ```any``` type.
+
 ### ```'react/jsx-indent-props': [2, 'first']```
 
 This option validates a specific indentation style for props.
@@ -88,7 +92,7 @@ This rule is closely related to ```jsx-a11y/no-noninteractive-element-interactio
 
 This rule enforces using natively interactive HTML elements for interaction, for example a ```button``` for click events, and not just any element like a ```div```. The rule is closely related to the above rule and has been disabled.
 
-### ```'react/no-danger': 0,'```
+### ```'react/no-danger': 0'```
 
 Prevent usage of dangerous JSX properties.
 
