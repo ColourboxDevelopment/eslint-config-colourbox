@@ -92,7 +92,11 @@ This rule is closely related to ```jsx-a11y/no-noninteractive-element-interactio
 
 This rule enforces using natively interactive HTML elements for interaction, for example a ```button``` for click events, and not just any element like a ```div```. The rule is closely related to the above rule and has been disabled.
 
-### ```'react/no-danger': 0'```
+### ```'jsx-a11y/media-has-caption': 0```
+
+This rule reminds/forces developers to add tracks (captions, subtitles) to media. We do not (always) have such tracks and do not want to be forced into producing them, so we disabled the rule.
+
+### ```'react/no-danger': 0```
 
 Prevent usage of dangerous JSX properties.
 
