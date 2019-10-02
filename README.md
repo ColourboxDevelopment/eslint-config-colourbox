@@ -58,6 +58,12 @@ Disabled, allowing you to have multiple expressions, including plain text and wh
 
 This rule enforces a consistent indentation style in JSX. 4 spaces.
 
+### ```'react/jsx-curly-brace-presence': 0```
+
+This rule controls the use of curly braces. It fails to allow `'{ }'` except when configuring the rule to ignore children completely, so we disables the rule.
+
+It's an [issue with eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react/issues/1717), so the rule should be enabled again when updating to the next stable version of eslint-plugin-react.
+
 ### ```'import/no-unresolved': 0```
 
 Ensures an imported module can be resolved to a module on the local filesystem.

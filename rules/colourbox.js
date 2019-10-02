@@ -30,6 +30,7 @@ module.exports = {
         'jsx-a11y/no-noninteractive-element-interactions': 0,
         'jsx-a11y/media-has-caption': 0,
         'react/no-danger': 0,
+        'react/jsx-curly-brace-presence': 0,
         'no-restricted-syntax': [
             'error',
             'ForStatement',
