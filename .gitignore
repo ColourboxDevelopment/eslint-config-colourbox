@@ -9,6 +9,3 @@ node_modules/
 
 # Output of 'npm pack'
 *.tgz
-
-# npm lock
-package-lock.json
