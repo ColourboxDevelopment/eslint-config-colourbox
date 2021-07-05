@@ -122,3 +122,23 @@ Disallows ```for``` loops. Full rule:
     'WithStatement',
 ],
 ```
+
+### ```'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }]```
+
+Require parens in arrow function arguments.
+
+Disabled. Require for block body or multiple parameters.
+
+### ```'react/jsx-props-no-spreading': 0```
+
+Disallow JSX props spreading
+
+Disabled. In some cases, we want to use JSX props spreading.
+
+
+### ```'react/jsx-curly-newline': 0```
+
+Enforce linebreaks in curly braces in JSX attributes and expressions.
+
+Disabled. Come on! Get a life, who cares.
+
