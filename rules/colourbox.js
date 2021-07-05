@@ -39,6 +39,9 @@ module.exports = {
             'LabeledStatement',
             'WithStatement',
         ],
+        'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+        'react/jsx-props-no-spreading': 0,
+        'react/jsx-curly-newline': 0,
     },
     plugins: [
         'react',
